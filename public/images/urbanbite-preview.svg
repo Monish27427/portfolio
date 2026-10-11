@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f1117" />
+      <stop offset="100%" stop-color="#07080a" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#e05638" />
+      <stop offset="100%" stop-color="#f97316" />
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#181a24" />
+      <stop offset="100%" stop-color="#11131c" />
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.5" />
+    </filter>
+  </defs>
+
+  <!-- Background Layer -->
+  <rect width="1200" height="675" fill="url(#bgGrad)" />
+  
+  <!-- Subtle Grid Overlay -->
+  <g opacity="0.05" stroke="#ffffff" stroke-width="1">
+    <path d="M0 75 H1200 M0 150 H1200 M0 225 H1200 M0 300 H1200 M0 375 H1200 M0 450 H1200 M0 525 H1200 M0 600 H1200" />
+    <path d="M150 0 V675 M300 0 V675 M450 0 V675 M600 0 V675 M750 0 V675 M900 0 V675 M1050 0 V675" />
+  </g>
+
+  <!-- Browser Window Container -->
+  <g filter="url(#shadow)">
+    <rect x="80" y="60" width="1040" height="555" rx="12" fill="url(#cardGrad)" stroke="rgba(255, 255, 255, 0.12)" stroke-width="1.5" />
+    
+    <!-- Window Bar -->
+    <path d="M80 60 H1120 V104 H80 Z" fill="#141620" rx="12" />
+    <rect x="80" y="103" width="1040" height="1" fill="rgba(255, 255, 255, 0.08)" />
+    
+    <!-- Window Dots -->
+    <circle cx="112" cy="82" r="6" fill="#ff5f56" />
+    <circle cx="132" cy="82" r="6" fill="#ffbd2e" />
+    <circle cx="152" cy="82" r="6" fill="#27c93f" />
+
+    <!-- Address Bar -->
+    <rect x="220" y="71" width="560" height="22" rx="6" fill="#0b0c10" stroke="rgba(255, 255, 255, 0.08)" />
+    <text x="235" y="86" fill="#8e8e93" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500">https://urbanbite-restaurant.vercel.app</text>
+    
+    <!-- Status Badge -->
+    <rect x="990" y="72" width="110" height="20" rx="10" fill="rgba(39, 201, 63, 0.12)" stroke="rgba(39, 201, 63, 0.3)" />
+    <circle cx="1005" cy="82" r="3.5" fill="#27c93f" />
+    <text x="1016" y="86" fill="#27c93f" font-family="-apple-system, sans-serif" font-size="10" font-weight="600" letter-spacing="0.5">LIVE DEMO</text>
+
+    <!-- Website Header Inside Mockup -->
+    <rect x="80" y="104" width="1040" height="60" fill="#141620" opacity="0.8" />
+    <!-- Brand Logo -->
+    <text x="120" y="141" fill="#ffffff" font-family="'Space Grotesk', sans-serif" font-size="20" font-weight="700" letter-spacing="1">URBAN<tspan fill="url(#accentGrad)">BITE</tspan></text>
+    
+    <!-- Nav Links Mock -->
+    <rect x="760" y="130" width="45" height="8" rx="4" fill="#8e8e93" opacity="0.6" />
+    <rect x="825" y="130" width="45" height="8" rx="4" fill="#8e8e93" opacity="0.6" />
+    <rect x="890" y="130" width="45" height="8" rx="4" fill="#8e8e93" opacity="0.6" />
+    <rect x="955" y="120" width="120" height="28" rx="14" fill="url(#accentGrad)" />
+    <text x="980" y="138" fill="#ffffff" font-family="sans-serif" font-size="11" font-weight="600">Reserve Table</text>
+
+    <!-- Mockup Hero Content -->
+    <!-- Left Hero Column -->
+    <rect x="120" y="200" width="140" height="18" rx="4" fill="url(#accentGrad)" opacity="0.8" />
+    <text x="126" y="213" fill="#ffffff" font-family="sans-serif" font-size="9" font-weight="700" letter-spacing="1.5">CUISINE &amp; COMFORT</text>
+
+    <text x="120" y="260" fill="#ffffff" font-family="sans-serif" font-size="34" font-weight="800">Authentic Flavors,</text>
+    <text x="120" y="300" fill="#e05638" font-family="sans-serif" font-size="34" font-weight="800">Modern Dining.</text>
+    
+    <text x="120" y="340" fill="#9ca3af" font-family="sans-serif" font-size="13" width="420">Experience handcrafted recipes, artisanal drinks, and a high-end atmosphere designed for food enthusiasts in Chennai.</text>
+    
+    <!-- Hero Action Buttons -->
+    <rect x="120" y="375" width="130" height="38" rx="6" fill="url(#accentGrad)" />
+    <text x="148" y="399" fill="#ffffff" font-family="sans-serif" font-size="12" font-weight="600">Explore Menu</text>
+    
+    <rect x="265" y="375" width="140" height="38" rx="6" fill="transparent" stroke="rgba(255,255,255,0.2)" stroke-width="1.5" />
+    <text x="286" y="399" fill="#e2e8f0" font-family="sans-serif" font-size="12" font-weight="500">WhatsApp Booking</text>
+
+    <!-- Mockup Feature Cards Right Side -->
+    <g transform="translate(600, 195)">
+      <!-- Food Card 1 -->
+      <rect x="0" y="0" width="220" height="190" rx="10" fill="#1d202d" stroke="rgba(255,255,255,0.08)" stroke-width="1" />
+      <rect x="12" y="12" width="196" height="100" rx="6" fill="#292d3e" />
+      <circle cx="110" cy="62" r="30" fill="url(#accentGrad)" opacity="0.3" />
+      <path d="M98 62 L122 62 M110 50 L110 74" stroke="#e05638" stroke-width="3" stroke-linecap="round" />
+      <text x="20" y="132" fill="#ffffff" font-family="sans-serif" font-size="13" font-weight="700">Signature Chettinad Bowl</text>
+      <text x="20" y="150" fill="#e05638" font-family="sans-serif" font-size="12" font-weight="700">₹380</text>
+      <rect x="20" y="160" width="60" height="14" rx="7" fill="rgba(224,86,56,0.15)" />
+      <text x="28" y="171" fill="#e05638" font-family="sans-serif" font-size="8" font-weight="600">CHEF SPECIAL</text>
+
+      <!-- Food Card 2 -->
+      <rect x="240" y="0" width="220" height="190" rx="10" fill="#1d202d" stroke="rgba(255,255,255,0.08)" stroke-width="1" />
+      <rect x="252" y="12" width="196" height="100" rx="6" fill="#292d3e" />
+      <circle cx="350" cy="62" r="30" fill="url(#accentGrad)" opacity="0.3" />
+      <rect x="335" y="47" width="30" height="30" rx="4" fill="#e05638" opacity="0.6" />
+      <text x="260" y="132" fill="#ffffff" font-family="sans-serif" font-size="13" font-weight="700">Artisanal Filter Coffee</text>
+      <text x="260" y="150" fill="#e05638" font-family="sans-serif" font-size="12" font-weight="700">₹140</text>
+      <rect x="260" y="160" width="50" height="14" rx="7" fill="rgba(255,255,255,0.1)" />
+      <text x="270" y="171" fill="#9ca3af" font-family="sans-serif" font-size="8" font-weight="600">BEVERAGE</text>
+
+      <!-- Menu Category Tabs Bar -->
+      <rect x="0" y="210" width="460" height="42" rx="8" fill="#161822" stroke="rgba(255,255,255,0.06)" />
+      <rect x="10" y="217" width="90" height="28" rx="6" fill="url(#accentGrad)" />
+      <text x="32" y="235" fill="#ffffff" font-family="sans-serif" font-size="11" font-weight="600">All Items</text>
+      <text x="135" y="235" fill="#9ca3af" font-family="sans-serif" font-size="11" font-weight="500">Starters</text>
+      <text x="220" y="235" fill="#9ca3af" font-family="sans-serif" font-size="11" font-weight="500">Main Course</text>
+      <text x="330" y="235" fill="#9ca3af" font-family="sans-serif" font-size="11" font-weight="500">Desserts</text>
+    </g>
+
+    <!-- Bottom Tech Stack Pills overlay inside mock -->
+    <g transform="translate(120, 480)">
+      <rect x="0" y="0" width="960" height="48" rx="8" fill="#161822" stroke="rgba(255, 255, 255, 0.08)" />
+      <text x="20" y="28" fill="#8e8e93" font-family="sans-serif" font-size="11" font-weight="600" letter-spacing="1">STACK:</text>
+      
+      <rect x="80" y="12" width="65" height="24" rx="4" fill="rgba(255,255,255,0.06)" />
+      <text x="96" y="28" fill="#e2e8f0" font-family="sans-serif" font-size="11" font-weight="500">React</text>
+      
+      <rect x="155" y="12" width="55" height="24" rx="4" fill="rgba(255,255,255,0.06)" />
+      <text x="170" y="28" fill="#e2e8f0" font-family="sans-serif" font-size="11" font-weight="500">Vite</text>
+
+      <rect x="220" y="12" width="105" height="24" rx="4" fill="rgba(255,255,255,0.06)" />
+      <text x="233" y="28" fill="#e2e8f0" font-family="sans-serif" font-size="11" font-weight="500">React Router</text>
+
+      <rect x="335" y="12" width="95" height="24" rx="4" fill="rgba(255,255,255,0.06)" />
+      <text x="348" y="28" fill="#e2e8f0" font-family="sans-serif" font-size="11" font-weight="500">Lucide React</text>
+
+      <rect x="440" y="12" width="60" height="24" rx="4" fill="rgba(255,255,255,0.06)" />
+      <text x="454" y="28" fill="#e2e8f0" font-family="sans-serif" font-size="11" font-weight="500">Vercel</text>
+    </g>
+  </g>
+</svg>
